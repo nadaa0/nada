@@ -3,7 +3,7 @@ Platforme de sensibilisation et d'éducation sur la santé mentale et Bien-Etre 
 https://github.com/users/nadaa0/projects/1/views/5
 
 Projet en cours de réalisation par :
-Nada Mekkaoui groupe B
++ Nada Mekkaoui groupe B
 
 Fonctionnalités proposées :
 + En tant qu'utilisateur, je pouvoir consulter des ressources éducatives sur divers aspects de la santé mentale et du bien-être pour accroître ma compréhension et sensibilisation.
@@ -15,7 +15,7 @@ Fonctionnalités proposées :
 + En tant qu'utilisateur, je peux trouver des ressources de soutien telles que des lignes d'écoute téléphonique et des groupes de soutien en ligne, ainsi que des références à des thérapeutes locaux.
 
 Technologies :
-Visual Studio Code
-Vue.js
-MongoDB
-Django
++ Visual Studio Code
++ Vue.js
++ MongoDB
++ Django
