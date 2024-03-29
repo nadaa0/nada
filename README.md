@@ -1,5 +1,6 @@
 # nada
-Platforme de sensibilisation et d'éducation sur la santé mentale et Bien-Etre
+Platforme de sensibilisation et d'éducation sur la santé mentale et Bien-Etre:
+
 Ce projet vise à créer une plateforme en ligne qui sensibilise et éduque les utilisateurs sur divers aspects de la santé mentale et du bien-être. L'objectif est d'offrir des ressources éducatives, des articles informatifs, des vidéos éducatives, ainsi que des interventions thérapeutiques interactives pour aider les utilisateurs à mieux comprendre et gérer leur santé mentale.
 
 https://github.com/users/nadaa0/projects/1/views/5
@@ -24,12 +25,15 @@ Fonctionnalités proposées:
 
 Technologies:
 +Visual Studio Code(https://code.visualstudio.com)
+
 +Vue.js(https://vuejs.org)
+
 +MongoDB(https://www.mongodb.com)
 +Flask
 
 Installation et Execution :
 Pour installer les dépendances nécessaires au fonctionnement du  Flask, exécutez les commandes suivantes  :
+
 pip install flask
 pip install -r requirements.txt
 
