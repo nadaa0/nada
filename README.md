@@ -6,9 +6,11 @@ Ce projet vise à créer une plateforme en ligne qui sensibilise et éduque les 
 https://github.com/users/nadaa0/projects/1/views/5
 
 Projet en cours de réalisation par :
+
 Nada Mekkaoui (Groupe B)
 
 Fonctionnalités proposées:
+
 +En tant qu'utilisateur, je peux consulter des ressources éducatives sur divers aspects de la santé mentale et du bien-être pour accroître ma compréhension et sensibilisation.
 
 +En tant qu'utilisateur, je peux accéder à des articles informatifs sur différents troubles mentaux tels que l'anxiété, la dépression et le stress, afin de mieux +comprendre ces problèmes de santé mentale.
@@ -24,26 +26,33 @@ Fonctionnalités proposées:
 +En tant qu'utilisateur, je peux trouver des ressources de soutien telles que des lignes d'écoute téléphonique et des groupes de soutien en ligne, ainsi que des références à des thérapeutes locaux.
 
 Technologies:
+
 +Visual Studio Code(https://code.visualstudio.com)
 
 +Vue.js(https://vuejs.org)
 
 +MongoDB(https://www.mongodb.com)
+
 +Flask
 
 Installation et Execution :
+
 Pour installer les dépendances nécessaires au fonctionnement du  Flask, exécutez les commandes suivantes  :
 
 pip install flask
+
 pip install -r requirements.txt
 
 Lancer en exécutant la commande suivante :
+
 Flask run
 
 Vue.js(https://vuejs.org) ,pour installer tous les modules nécessaires au fonctionnement de mon projet, exécutez la commande suivante :
+
 npm install
 
 Lancer en exécutant la commande suivante :
+
 npm run serve
 
 Date de sortie du Platforme :
