@@ -2,7 +2,7 @@ Platforme de sensibilisation et d'éducation sur la santé mentale et Bien-Etre:
 
 Ce projet vise à créer une plateforme en ligne qui sensibilise et éduque les utilisateurs sur divers aspects de la santé mentale et du bien-être. L'objectif est d'offrir des ressources éducatives, des articles informatifs, ainsi que des interventions thérapeutiques interactives pour aider les utilisateurs à mieux comprendre et gérer leur santé mentale,et un mini test pour déterminer si les utilisateurs présentent un risque élevé de troubles mentaux graves.
 
-https://github.com/users/nadaa0/projects/1/views/5
+
 
 Projet en cours de réalisation par :
 
