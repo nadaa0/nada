@@ -1,0 +1,110 @@
+
+body {
+  font-family: Arial, sans-serif;
+  max-width: 7000px;
+  margin: 1px;
+  padding: 3px;
+  background-image: url('0.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: rgb(106, 159, 133);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+
+}
+
+section {
+  padding: 20px;
+}
+
+#content {
+  background-color: rgba(255, 255, 255, 0.847); 
+  padding: 20px;
+  opacity: 1; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 16px;
+}
+
+#content h2 {
+  color: #333;
+  font-size: 27px;
+  margin-bottom: 15px;
+}
+
+#content p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+#content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#content ul li {
+  margin-bottom: 20px;
+}
+
+#content ul li a {
+  color: #c636c8;
+  text-decoration: none;
+}
+
+#content ul li a:hover {
+  color: #ff6f00;
+  text-decoration: underline;
+}
+
+#content ul li::before {
+  content: "\2022";
+  color: #ff6f00;
+  display: inline-block;
+  width: 2em;
+  margin-left: 2em;
+}
+
+#content ul li:hover::before {
+  color: #333;
+}
+
+#content ul li a:hover::before {
+  color: #333;
+}
+
+/* Button Styles */
+#toggleButton {
+  display: block;
+  background-color: rgb(106, 159, 133);
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #c0c0c0;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #c79b9b;
+}

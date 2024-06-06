@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plateforme de Santé Mentale</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/therapie.js') }}"></script>
+    
+</head>
+<body>
+    <section id="content">
+        <h2>Thérapie et Ressources</h2>
+        
+        <h3>Lignes d'écoute téléphonique</h3>
+        <p>Si vous avez besoin de parler à quelqu'un, voici quelques lignes d'écoute téléphonique disponibles au Maroc :</p>
+        <ul>
+            <li>
+                <span>Allo SAMU :</span>
+                <a href="tel:0537637777">05 37 63 77 77</a>
+            </li>
+            <li>
+                <span>CNPMM :</span>
+                <a href="tel:+212537777230">+212 5377-77230</a>
+            </li>
+            <li>
+                <span>Association Lueur d'Espoir :</span>
+                <a href="tel:+212663490225">+212 663-490225</a>
+            </li>
+        </ul>   
+        
+        <h3>Groupes de soutien en ligne</h3>
+        <p>Les groupes de soutien en ligne peuvent offrir un espace sécurisé pour partager vos expériences et recevoir un soutien mutuel. Voici quelques groupes de soutien en ligne recommandés :</p>
+        <ul>
+            <li>DailyStrength : est une plateforme de soutien en ligne qui propose des groupes de soutien pour différentes conditions de santé mentale. Les membres peuvent se connecter, participer à des discussions et obtenir du soutien. : <a href="https://www.dailystrength.org/">Lire la suite</a></li>
+            <li>HealthUnlocked : est une communauté en ligne offrant des groupes de soutien pour une variété de conditions de santé, y compris la santé mentale. Les membres peuvent se connecter, partager leurs expériences et recevoir du soutien. <a href="https://www.healthunlocked.com/">Lire la suite</a></li>
+            <li>SupportGroupsCentral : est une plateforme en ligne qui offre une variété de groupes de soutien en ligne pour différents problèmes de santé mentale. Vous pouvez trouver des groupes spécifiques à des conditions telles que la dépression, l'anxiété, les troubles alimentaires, etc. : <a href="https://www.supportgroupscentral.com/">Lire la suite</a></li>
+        </ul>
+
+        <h3>Applications</h3>
+        <p>Il existe de nombreuses applications disponibles offrant différents types de services pouvant aider à améliorer votre santé mentale. Voici quelques excellentes applications :</p>
+        <ul>
+            <li>Calm : Offre des exercices de respiration, de relaxation et de méditation. Dispose également de contes pour s'endormir racontés par des célébrités telles que Harry Styles ! Une version gratuite avec des fonctionnalités limitées est disponible.</li>
+            <li>TalkSpace :Offre un accès à du personnel médical 24 heures sur 24, 7 jours sur 7. Idéal pour ceux qui se sentent mal à l'aise ou ne peuvent pas se rendre à des séances de thérapie en personne.</li>
+            
+        </ul>
+
+        <h3>Thérapeutes locaux</h3>
+        <div class="image-list">
+            <div class="card">
+                <img src="{{ url_for('static', filename='Images/13.png') }}" alt="Resource Image 1">
+                <div class="card-details">
+                    <h4 class="text-title">Dr Yassin Yahya</h4>
+                    <p>Psychologue et psychothérapeute</p>
+                    <p class="text-body">Adresse : 23 Rue Georges Sand, Casablanca. </p>
+                    <a href="tel:++212 671-800700">+212 671-800700</a>
+                    <a class="linkedin-button" href="https://www.linkedin.com/in/med-yassin-yahya-364932175/?originalSubdomain=ma" target="_blank">LinkedIn</a>
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="{{ url_for('static', filename='Images/12.png') }}" alt="Resource Image 2">
+                <div class="card-details">
+                    <h4 class="text-title">Dr Kenza Hajjami</h4>
+                    <p>Psychologue et psychothérapeute </p>   
+                    <p class="text-body">Adresse : 4 rue tafraout, Rabat.</p>
+                    <a href="tel:05 37 73 76 76">05 37 73 76 76</a>
+                    <a class="linkedin-button" href="https://www.linkedin.com/in/kenza-hajjami-255634281/" target="_blank">LinkedIn</a>
+                    
+                    
+                </div>
+            </div>
+            <div class="card">
+                <img src="{{ url_for('static', filename='Images/11.png') }}" alt="Resource Image 3">
+                <div class="card-details">
+                    <h4 class="text-title">Dr Saad Idrissi Oukili</h4>
+                    <p>Psychiatre </p>     
+                    <p class="text-body">Adresse : Angle Rué Abdelkhalek Torres,Fès.</p>
+                    <a href="tel:05 35 65 20 65">05 35 65 20 65</a>
+                    <a class="linkedin-button" href="https://www.linkedin.com/in/dr-saad-idrissi-oukili-981726195/" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="{{ url_for('static', filename='Images/14.png') }}" alt="Resource Image 3">
+                <div class="card-details">
+                    <h4 class="text-title">Dr Imane Benhima</h4>
+                    <p>Psychiatre </p>     
+                    <p class="text-body">Adresse :Av. 4ème D.M.M., Marrakech.</p>
+                    <a href="tel:05 24 42 22 24">05 24 42 22 24</a>
+                    <a class="linkedin-button" href="https://www.linkedin.com/in/imane-benhima-71a7292b/?originalSubdomain=ma" target="_blank">LinkedIn</a>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

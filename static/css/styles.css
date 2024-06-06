@@ -1,0 +1,173 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: url('0.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+  line-height: 1.5;
+  
+  
+}
+
+
+#content {
+  opacity: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.847);
+  border-radius: 4px;
+  
+}
+
+
+h2 {
+  background-color:rgb(106, 159, 133);
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 17px;
+}
+
+
+h3 {
+  color: rgb(4, 48, 26);
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+
+
+ul {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+
+a {
+  color: #1744bf;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+.card {
+  width: 320px;
+  height: 430px;
+  border-radius: 20px;
+  background: #d7cece;
+  position: relative;
+  padding: 1.8rem;
+  border: 2px solid #d7d9df;
+  transition: 0.5s ease-out;
+  overflow: visible;
+ }
+ 
+ .card-details {
+  color: black;
+  height: 100%;
+  gap: .5em;
+  display: grid;
+  place-content: center;
+ }
+ 
+ .card-button {
+  transform: translate(-50%, 125%);
+  width: 60%;
+  border-radius: 1rem;
+  border: none;
+  background-color: #008bf8;
+  color: #fff;
+  font-size: 1rem;
+  padding: .5rem 1rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  opacity: 0;
+  transition: 0.3s ease-out;
+ }
+ 
+ .text-body {
+  color: rgb(134, 134, 134);
+ }
+ 
+
+ .text-title {
+  font-size: 1.5em;
+  font-weight: bold;
+ }
+ 
+
+ .card:hover {
+  border-color: #008bf8;
+  box-shadow: 0 4px 18px 0 rgba(0, 0, 0, 0.25);
+ }
+ 
+ .card:hover .card-button {
+  transform: translate(-50%, 50%);
+  opacity: 1;
+ }
+ .card > img {
+  width: 50%;
+  border-radius: 2px;
+  margin-bottom: 2px;
+}
+.card-details {
+  color: black;
+  height: 50%;
+  gap: 0.2em; 
+  display: grid;
+  place-content: center;
+}
+
+ .image-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  border: 1px solid gray;
+  padding: 20px;
+  margin: 20px;
+
+}
+.linkedin-button {
+  display: inline-block;
+  background-color: #0077B5;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+  width: 80px;
+}
+
+.linkedin-button:hover {
+  background-color: #005e91;
+}
+

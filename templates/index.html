@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindMate - Health Support Application</title>
+
+
+    
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    
+
+    
+    
+    <link rel="icon" href="{{ url_for('static', filename='images/B_icon01.png') }}">
+
+</head>
+<body>
+
+
+ 
+
+    <a href="HOME"></a>
+    <div class="main">
+
+    
+
+        <div class="header">
+            <div class="logo-cantainer">
+                <h2 class="logo">MindMate.</h2>
+            </div>
+
+            <div class="nav-and-btn-cont">
+                <div class="nav-list-cont">
+                    <ul class="nav-ul">
+                        
+                        <li><a href="{{ url_for('education') }}">Éducation</a></li>
+                        <li><a href="{{ url_for('ev') }}">Amélioration et Bien-être</a></li>
+                        <li><a href="{{ url_for('therapie') }}">Thérapie et Ressources</a></li>
+                    </ul>
+                </div>
+
+
+
+                
+
+                
+            </div>
+
+        </div>
+
+        <div class="mobile-view-nav-cont" id="mobile-nav">
+
+            <div class="mobile-view-nav-head">
+                <p>Menu</p>
+            </div>
+
+            <div class="mobile-view-nav-list">
+
+                <ul>
+                    
+                    <li ><a href="{{ url_for('education') }}" class="mobile-view-list">Éducation</a></li>
+                    <li ><a href="{{ url_for('ev') }}" class="mobile-view-list">Amélioration et Bien-être</a></li>
+                    <li ><a href="{{ url_for('therapie') }}" class="mobile-view-list">Thérapie et Ressources</a></li>
+
+                    
+                    
+                </ul>
+
+            </div>
+
+        </div>
+
+
+    
+
+    
+
+        <div class="content-container">
+            <div>
+                <div class="content-head-cont">
+                    <h2 class="content-head">Santé <span>Mentale</span></h2>
+                </div>
+    
+                <div class="content-quote-cont">
+                    <p class="quote">La guérison ne suit pas un chemin <span>linéaire</span>.Il est primordial de vous accorder le temps et l'espace dont vous avez besoin
+                        pour guérir, sans ressentir de précipitation ni de pression.Personne d'autre ne peut réellement
+                        saisir les subtilités de vos expériences et les blessures émotionnelles que vous portez.
+                        </p>
+                </div>
+            </div>
+             
+
+
+            <div class="content-2-cont">
+                <div class="content-2">
+                    <p> Un mini test : </p>
+                </div>
+
+                <div class="explore-btn-cont">
+                    
+                    
+                    <li ><a href="{{ url_for('hel') }}" class="explore-btn">Test</a></li>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="illustration-cont">
+
+            <img src="{{ url_for('static', filename='Images/girlIllustration0.5.png') }}" class="landing-img-container" id="land-img">
+            
+
+     
+
+            <div class="shadow">
+                
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

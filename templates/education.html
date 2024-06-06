@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Éducation - Plateforme de Santé Mentale</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/education-style.css') }}">
+    <script src="{{ url_for('static', filename='js/education.js') }}"></script>
+    
+    
+</head>
+<body>
+    <header>
+        <h1>Contenu éducatif et de sensibilisation</h1>
+    </header>
+    
+    <section id="content">
+        <h2>Page d'Éducation</h2>
+        
+        <p>L'éducation sur la santé mentale joue un rôle essentiel dans notre bien-être global
+        Tout comme nous prenons soin de notre santé physique en faisant de l'exercice et en adoptant
+        une alimentation équilibrée, il est tout aussi important<br> de cultiver une bonne santé mentale.La santé
+        mentale affecte tous les aspects de notre vie, de nos relations personnelles
+        à notre productivité au travail.</p>
+        
+        <p>Grâce à une éducation sur la santé mentale, nous pouvons acquérir les connaissances et les compétences nécessaires pour reconnaître les<
+        signes précurseurs de problèmes de santé mentale, gérer le stress, cultiver la résilience émotionnelle et maintenir un équilibre émotionnel sain.<br>
+        L'éducation nous aide à déconstruire les stigmates associés à la santé mentale et à promouvoir un soutien mutuel et une compréhension accrue dans nos communautés.</p>
+        
+        <p>Nous devons accorder autant d'importance à notre santé mentale qu'à notre santé physique. Prendre soin de notre bien-être mental nous permet
+        de mieux faire face aux défis de la vie, d'améliorer notre estime de soi et de maintenir des relations saines.<br> Il est important de créer une culture de
+        l'éducation sur la santé mentale, où nous valorisons l'apprentissage continu et l'échange d'informations sur les meilleures pratiques pour prendre soin de notre esprit et de notre corps.</p>
+        
+        <p>En explorant nos ressources éducatives, vous êtes sur la voie d'une meilleure compréhension de la santé mentale et de la promotion d'un mode de
+        vie sain. N'oubliez pas que l'apprentissage est un voyage continu, et chaque pas que vous faites pour élargir vos connaissances et prendre soin de votre santé mentale compte énormément.</p>
+
+        <h2 id="resourceHeader">Explorez nos ressources éducatives sur la santé mentale:</h2>
+        
+        <button id="toggleButton" onclick="toggleResources()">Explorer</button>
+
+        <ul id="resourceList" style="display:none;">
+            <li><a href="{{ url_for('articles') }}">Articles</a></li>
+            <li>
+                <b>Vidéo</b>
+                <a href="https://www.youtube.com/watch?v=EvmIYX8iaXw" class="btn">Access Resource Video</a>
+                
+            </li>
+            
+        </ul>  
+       
+    </section>
+
+    
+
+</body>
+</html>

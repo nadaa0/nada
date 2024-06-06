@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html>
+<head>
+          <title></title>
+            
+           <link rel ="stylesheet" type = "text/css"  href ="index.css">
+             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+
+
+body {
+  margin:0px;
+  font-family:'Roboto';
+  text-align:center;
+}
+
+
+
+.heads{
+    flex-direction : row;
+    display: flex;
+    height: 75px;
+    background:rgb(106, 159, 133);
+    width: 100%;
+ 
+     
+}
+
+.logo{
+    font-size: 20px;
+    font-family:monospace;
+    color:#6e6b74;
+    margin-left: 20px;
+
+}
+.other{
+    flex-direction : row;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 30px;
+    color:#ddd8d8;
+    font-family:monospace
+}
+
+.logo h3{
+ color:#f5fefbf7;
+}
+.x a{
+  color:#f5fefbf7;
+  margin-left:30px;
+}
+
+.w{
+padding:0 30px;
+}
+.w h1{
+color:#03163b;
+}
+#container {
+  color:#999;
+  text-transform: none;
+  font-size:25px;
+  font-weight:bold;
+  padding-top:10px;  
+  width:100%;
+  bottom:45%;
+  display:block;
+}
+
+#flip {
+  height:50px;
+  overflow:hidden;
+}
+
+#flip > div > div {
+  color:#fff;
+  padding:4px 12px;
+  height:45px;
+  margin-bottom:45px;
+  display:inline-block;
+}
+
+#flip div:first-child {
+  animation: show 5s linear infinite;
+}
+
+#flip div div {
+  background:#abff00;
+}
+#flip div:first-child div {
+  background:#00eaff;
+}
+#flip div:last-child div {
+  background:#ff0033;
+}
+
+@keyframes show {
+  0% {margin-top:-270px;}
+  5% {margin-top:-180px;}
+  33% {margin-top:-180px;}
+  38% {margin-top:-90px;}
+  66% {margin-top:-90px;}
+  71% {margin-top:0px;}
+  99.99% {margin-top:0px;}
+  100% {margin-top:-270px;}
+}
+
+p {
+  position:fixed;
+  width:100%;
+  bottom:10px;
+  font-size:12px;
+  color:#999;
+
+  font-family:monospace
+}
+
+.main{
+  display:flex;
+  flex-direction:column;
+
+}
+
+
+
+.ok{
+  padding:15px 30px;
+  border-radius:10px;
+  border:transparent;
+  margin-top:18px;
+  color:white;
+  background:#1f6d76;
+  font-size:15px;
+  font-family:monospace;
+}
+
+
+@media only screen and (min-width: 700px) and (max-width: 890px) {
+  .logo {
+    margin-left: 50px;
+  }
+  .x {
+    margin-left: 90px;
+  }
+  img {
+    width: 250px;
+  }
+
+  #container {
+    font-size: 40px;
+  }
+  .ok {
+    margin-top: 40px;
+    padding: 20px 40px;
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (min-width: 900px) 
+{
+  .main{
+    flex-direction:row;
+   
+  }
+  .logo{
+  margin-left:80px;
+}
+.other{
+  margin-left:700px;
+}
+.x {
+  margin-left:90px;
+}
+img{
+  width:300px ;
+  margin-left:50px;
+  margin-top:0px;
+  border-radius:0%;
+  border:1.5px solid #ff790a66;
+  padding:10px;
+}
+.w{
+padding:0 200px;
+}
+#container{
+  font-size:40px;
+  margin-top:0px;
+  margin-left: 0px
+}
+.ok{
+  margin-top:60px;
+  margin-left:0px;
+  padding:20px 40px;
+  font-size:20px;
+}
+
+.photo1 img{
+width:300px;
+ margin-right:50px;
+  margin-top:50px;
+  border-radius:0%;
+  border:1.5px solid #ff790a66;
+  padding:10px;
+}
+
+a {
+  color: #1744bf;
+  text-transform: none;
+}
+
+}
+</style>
+
+         </head>
+<body>
+<div class="heads">
+<div class ="logo">
+<a href ="\" style="text-decoration:none;">
+<h3>MindMate</h3></a>
+</div>
+
+
+</div>
+
+
+{%if data == 1%}
+<div class="w">
+<div id=container>
+  
+<h1>RÉSULTATS</h1>
+VOUS ÊTES À UN NIVEAU ÉLEVÉ DE RISQUE DE PRÉSENTATION DE TROUBLES SÉRIEUX DE LA SANTÉ MENTALE !</br>
+nous sommes ici pour vous soutenir et vous aider : </br>
+
+<a href="{{ url_for('therapie') }}">Thérapie et Ressources</a>
+
+<div clas="test">
+<a href ="/">
+<button class="ok">Retour</button>
+</a>
+</div>
+</div>
+</div>
+  {%else%}
+<div class="w">
+<div id=container>
+  
+<h1>RÉSULTATS</h1>
+VOUS AVEZ UNE BONNE SANTÉ MENTALE. CONTINUEZ À APPRÉCIER CHAQUE MOMENT !
+<br><br>
+  Always Be
+  <div id=flip>
+    <div><div>Smile</div></div>
+    <div><div>Happy</div></div>
+    <div><div>Healthy</div></div>
+  </div>
+  In Life
+<div clas="test">
+<a href ="/">
+<button class="ok">Retour</button>
+</a>
+</div>
+</div>
+</div>
+  {%endif%}
+
