@@ -13,7 +13,8 @@ Fonctionnalités proposées:
 
 +En tant qu'utilisateur, je peux consulter des ressources éducatives sur divers aspects de la santé mentale et du bien-être pour accroître ma compréhension et sensibilisation.
 
-+En tant qu'utilisateur, je peux accéder à des articles informatifs sur différents troubles mentaux tels que l'anxiété, la dépression,l’autisme chez les adultes,etc.., afin de mieux comprendre ces problèmes de santé mentale.
++En tant qu'utilisateur, je peux accéder à des articles informatifs sur différents troubles mentaux tels que l'anxiété, la dépression,l’autisme chez les adultes,etc.., afin de mieux 
+comprendre ces problèmes de santé mentale.
 
 +En tant qu'utilisateur, je peux visionner une vidéo éducative sur l'importance de la santé mentale.
 
@@ -39,11 +40,17 @@ Lancer en exécutant la commande suivante :
 Flask run
 
 Autres bibliothèques Python :
+
 Installation:
+
 pip install numpy
+
 pip install pandas
+
 pip install matplotlib
+
 pip install seaborn
+
 pip install scikit-learn
 
 
