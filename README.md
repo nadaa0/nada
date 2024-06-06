@@ -22,7 +22,9 @@ Fonctionnalités proposées:
 
 Technologies:
 
-+Visual Studio Code(https://code.visualstudio.com) +Flask
++Visual Studio Code(https://code.visualstudio.com)
+
++Flask
 
 Installation et Execution :
 
