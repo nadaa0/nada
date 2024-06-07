@@ -1,7 +1,5 @@
 import numpy as np 
 import pandas as pd
-import matplotlib.pyplot as plt 
-import seaborn as sns 
 import missingno as ms 
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
@@ -15,9 +13,6 @@ ms.matrix(df)
 df.max()
 df.describe()
 df.shape
-
-sns.swarmplot(y="Age", x=" Risque", data=df)
-plt.show()
 
 df.info()
 train = df.drop(['Nom','score',' Risque','Age'], axis=1)
